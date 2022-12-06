@@ -1,0 +1,10 @@
+// const INPUT: &str = include_str!("../../inputs/y2022/TODO_input.txt");
+// const INPUT: &str = include_str!("../../inputs/y2022/TODO_test.txt");
+
+pub fn part1() -> String {
+    format!("TODO")
+}
+
+pub fn part2() -> String {
+    format!("TODO!")
+}

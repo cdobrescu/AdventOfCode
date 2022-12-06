@@ -90,8 +90,10 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     // println!("y2022::day4: {:?}", y2022::day4::part2());
     // println!("y2022::day5: {:?}", y2022::day5::part1());
     // println!("y2022::day5: {:?}", y2022::day5::part2());
-    println!("y2022::day6: {:?}", y2022::day6::part1());
+    // println!("y2022::day6: {:?}", y2022::day6::part1());
     // println!("y2022::day6: {:?}", y2022::day6::part2());
+    // println!("y2022::day7: {:?}", y2022::day7::part1());
+    // println!("y2022::day7: {:?}", y2022::day7::part2());
 
     Ok(())
     
