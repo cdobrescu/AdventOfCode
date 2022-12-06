@@ -1,5 +1,5 @@
 pub mod oauth;
-
+pub mod y2022;
 
 // https://adventofcode.com/auth/github
 fn main() -> Result<(), Box<dyn std::error::Error>> {
@@ -80,7 +80,18 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     //     .send()
     //     .unwrap();
     // println!("y21_day15_res ========================================\n {:?}\n", &y21_day15_res.text()?);
-
+    // println!("y2022::day1: {:?}", y2022::day1::part1());
+    // println!("y2022::day1: {:?}", y2022::day1::part2());
+    // println!("y2022::day2: {:?}", y2022::day2::part1());
+    // println!("y2022::day2: {:?}", y2022::day2::part2());
+    // println!("y2022::day3: {:?}", y2022::day3::part1());
+    // println!("y2022::day3: {:?}", y2022::day3::part2());
+    // println!("y2022::day4: {:?}", y2022::day4::part1());
+    // println!("y2022::day4: {:?}", y2022::day4::part2());
+    // println!("y2022::day5: {:?}", y2022::day5::part1());
+    // println!("y2022::day5: {:?}", y2022::day5::part2());
+    println!("y2022::day6: {:?}", y2022::day6::part1());
+    // println!("y2022::day6: {:?}", y2022::day6::part2());
 
     Ok(())
     
